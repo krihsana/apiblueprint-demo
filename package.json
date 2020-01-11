@@ -1,0 +1,16 @@
+{
+  "name": "APIBlueprint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "krihsana <krihsana5@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aglio": "^2.3.0",
+    "drakov": "^1.0.4",
+    "nan": "^2.14.0"
+  },
+  "scripts": {
+    "doc": "aglio -i api.apib -s",
+    "mock": "drakov -f ./api.apib -p 3001"
+  }
+}
